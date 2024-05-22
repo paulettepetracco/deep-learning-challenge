@@ -17,7 +17,8 @@ Overview of the Analysis: The purpose of this analysis is to build a deep learni
 
 * In both models these were identifiers and not relevant for prediction.
 
-![alt text](<Name Binning-1.png>)
+![alt text](<Images/Name Binning-1.png>)
+
 
 **Model Features:**
 
@@ -32,7 +33,7 @@ Overview of the Analysis: The purpose of this analysis is to build a deep learni
 
 *Model 2:* There were three hidden layers were used with varying numbers of neurons (7, 14, and 21) and ReLU activation functions. 
 
-![alt text](hidden_layers-1.png)
+![alt text](Images/hidden_layers-1.png)
 
 *Models 1 and 2:* ReLU is chosen as it helps mitigate the vanishing gradient    problem and speeds up the training process.
 
@@ -48,9 +49,9 @@ The output layer consists of a single neuron with a sigmoid activation function,
 
 * Binning with 100 vs 1000 for the classifications to be replaced
 
-![alt text](classifications_to_replace-binning-1.png)
+![alt text](Images/classifications_to_replace-binning-1.png)
 
 **Summary:** In my optimized model I was able to achieve a 78% accuracy rate vs in my first model. By changing the number of hidden layers I noticed a difference in the accuracy.
-![alt text](<Optimization -1.png>)
+![alt text](<Images/Optimization -1.png>)
 
 The deep learning model was trained and evaluated for predicting the success of charitable funding applications. While the specific model performance metrics were not provided, further optimization may be required to achieve the target model performance. Additionally, exploring alternative architectures such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs) could be beneficial, especially if there are sequential patterns or spatial dependencies in the data that these architectures can capture effectively.
